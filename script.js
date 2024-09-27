@@ -5,7 +5,7 @@ function addTask() {
     if (!taskInput.value.trim()) {
         return alert("TODO CONNOT BE EMPTY!");
 
-    }
+    };
     
     var li = document.createElement('li');
     li.textContent = taskInput.value;
@@ -15,7 +15,20 @@ function addTask() {
     removeButton.className = 'remove-btn';
     removeButton.onclick = function () {
         taskList.removeChild('li');
-    }
+
+    };   
+        
+        li.onclick = function() {
+            li.classList.toggle('completed');
+
+    };
+
+    li.appendChild(removeButton);
+    taskList.appendChild(li);
+    taskInput.value = '';    
+    
+};
+
+    
 
 
-} 
