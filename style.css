@@ -21,12 +21,13 @@ body {
 
 h1 {
    color: white;
-   font-size: 30px;
+   font-size: 38px;
    margin-bottom: 22px;
+   text-decoration: underline;
 }
 
 #taskinput {
-    width: 80%;
+    width: 90%;
     padding: 10px;
     border: 3px solid #ddd;
     border-radius: 5px;
