@@ -10,7 +10,12 @@ function addTask() {
     var li = document.createElement('li');
     li.textContent = taskInput.value;
 
-   
+    var removeButton = document.createElement('button');
+    removeButton.textContent = 'Delete';
+    removeButton.className = 'remove-btn';
+    removeButton.onclick = function () {
+        taskList.removeChild('li');
+    }
 
 
 } 
