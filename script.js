@@ -3,7 +3,7 @@ function addTask() {
     var taskList = document.getElementById("tasklist");
 
     if (!taskInput.value.trim()) {
-        return alert("TODO CONNOT BE EMPTY!");
+        return alert("TODO LIST CONNOT BE EMPTY!");
 
     };
     
