@@ -14,7 +14,7 @@ function addTask() {
     removeButton.textContent = 'DELETE';
     removeButton.className = 'remove-btn';
     removeButton.onclick = function () {
-        taskList.removeChild('li');
+        taskList.removeChild(li);
 
     };   
         

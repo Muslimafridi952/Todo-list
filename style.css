@@ -10,9 +10,9 @@ body {
 }
 
 .container {
-    background-color: darkgray;
+    background-color: rgb(230, 185, 149);
     border-radius: 10px;
-    box-shadow: 10px 25px 25px rgba(0, 0, 0 ,0.5);
+    box-shadow: 10px 25px 25px rgba(228, 135, 28, 0.753);
     padding: 20px;
     text-align: center;
     width: 500px;
@@ -24,12 +24,19 @@ h1 {
    font-size: 38px;
    margin-bottom: 22px;
    text-decoration: underline;
+   text-shadow: 8px 8px 14px rgb(230, 185, 149);
+}
+
+#danana {
+    text-shadow: 10px 10px 20px rgba(211, 86, 86, 0.911);
+    text-decoration: underline;
+    color: rgb(6, 0, 8);
 }
 
 #taskinput {
     width: 93%;
     padding: 10px;
-    border: 3px solid #ddd;
+    border: 3px solid #E69428;
     border-radius: 5px;
     margin-bottom: 10px;
     outline: none;
@@ -38,16 +45,24 @@ h1 {
     font-size: 25px;
 }
 
-#taskInput :focus {
-    border-color: #4a90e2;
+#taskinput:focus {
+    border: 4px solid #e69428;
+
+
+}
+#taskinput:hover {
+    background-color:rgb(223, 218, 200);
+
 
 }
 
+
+
 button {
     padding: 10px 20px;
-    background-color: #eeb927c5;
+    background-color: #c9970dc5;
     color: floralwhite;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     font-size: 15px;
     margin-bottom: 10px;
@@ -55,7 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: #357ab8;
+    background-color: #72470e;
 }
 
 ul {
