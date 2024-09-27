@@ -33,7 +33,7 @@ h1 {
     transition: border 0.3;
 }
 
-#taskInput; :focus {
+#taskInput :focus {
     border-color: #4a90e2;
 
 }
@@ -60,3 +60,35 @@ ul {
     margin-bottom: 10px;
 }
 
+li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3;
+}
+li:hover {
+    background-color: #e9e9e9;
+}
+
+.competed{
+    text-decoration: line-through;
+    color: bisque;
+}
+.remove-btn {
+    background-color: #ff6b6b;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+.remove-btn:hover {
+    background-color: #d9534f;
+}
